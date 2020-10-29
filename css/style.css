@@ -145,6 +145,7 @@
  #back-to-top {
      position: fixed;
      bottom: 40px;
+     padding: 9px;
      right: 40px;
      z-index: 9999;
      width: 32px;
@@ -2189,7 +2190,7 @@
 }
  .new-account-login h5 {
      font-size: 18px;
-     color: #1111111;
+     color: #111111;
      font-weight: 600;
 }
  .new-account-login h5 a:hover{
@@ -2428,8 +2429,22 @@
  .submit-button button{
      padding: 10px 20px;
      font-weight: 700;
-     color: #ffffff;
+     color: #cfcfcf00;
      border: none;
+}
+#map{
+    height: auto; 
+    width: 100%; 
+    padding: 1rem;
+}
+.contact-info-map{
+    padding: 20px;
+    background-size: cover;
+}
+.contact-info-map h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
 }
  .help-block.with-errors{
      position: absolute;
